@@ -1,0 +1,116 @@
+@charset "utf-8";
+/* CSS Pekan 4 */
+/*
+body 	{
+	background-color : lightblue;
+}
+
+#header {
+	background-color : darkcyan;
+	height: 100px;
+	padding: 75px;
+	text-align: center;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	color: white;
+
+}
+#menu ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color : cyan;
+}
+#menu li a{
+	display: block;
+	height: 50px;
+	padding: 5px;
+	text-align: center;
+	font-family: Segoe UI;
+	color: black;
+
+}
+
+h1 		{
+	color : white;
+	text-align : center;
+	font-family : verdana;
+}
+h3 		{
+	font-family : arial;
+}
+p 		{
+	font-family : arial;
+}
+*/
+
+/*CSS Pekan 5*/
+
+html{
+	position: relative;
+}
+
+body{
+	margin-bottom: 100px;
+}
+
+.jumbotron{
+	margin-top: 30px;
+}
+
+.jumbotron img {
+	width: 250px;
+	border: 5px solid #2E2A2A;
+}
+
+.biodata{
+	min-height: 370px;
+}
+
+.biodata hr{
+	width: 250px;
+	border-top: 3px solid #2E2A2A;
+}
+
+.portfolio{
+	background-color: #eee;
+	min-height: 580px;
+}
+
+.portfolio hr{
+	width: 250px;
+	border-top: 3px solid #2E2A2A;
+}
+
+.about hr{
+	width: 250px;
+	border-top: 3px solid #2E2A2A;
+}
+
+section{
+	min-height: 300px;
+}
+
+.contact{
+	min-height: 900px;
+	background-color: #eee;
+}
+
+.contact hr{
+	width: 250px;
+	border-top: 3px solid #2E2A2A;
+}
+
+footer{
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 140px;
+	background-color: #222;
+	padding-top: 30px;
+}
+
+footer p{
+	color: #bbb;
+	font-size: 1.2em;
+}
