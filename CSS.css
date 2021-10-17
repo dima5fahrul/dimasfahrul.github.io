@@ -1,50 +1,6 @@
 @charset "utf-8";
-/* CSS Pekan 4 */
-/*
-body 	{
-	background-color : lightblue;
-}
 
-#header {
-	background-color : darkcyan;
-	height: 100px;
-	padding: 75px;
-	text-align: center;
-	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
-	color: white;
-
-}
-#menu ul{
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
-	overflow: hidden;
-	background-color : cyan;
-}
-#menu li a{
-	display: block;
-	height: 50px;
-	padding: 5px;
-	text-align: center;
-	font-family: Segoe UI;
-	color: black;
-
-}
-
-h1 		{
-	color : white;
-	text-align : center;
-	font-family : verdana;
-}
-h3 		{
-	font-family : arial;
-}
-p 		{
-	font-family : arial;
-}
-*/
-
-/*CSS Pekan 5*/
+/*CSS Pekan 8*/
 
 html{
 	position: relative;
@@ -54,14 +10,31 @@ body{
 	margin-bottom: 100px;
 }
 
+
+
+
 .jumbotron{
 	margin-top: 30px;
+	height: 600px;
+	background-image: url('setup.jpg');
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: 0 -40px;
+	overflow: hidden;
 }
 
 .jumbotron img {
 	width: 250px;
-	border: 5px solid #2E2A2A;
+	border: 5px solid #E9E5E5;
 }
+
+.jumbotron p, .jumbotron h1{
+	color: #E9E5E5!important;
+	text-shadow: 1.5px 1.5px 10px rgba(0,0,0,0.5);
+}
+
+
+
 
 .biodata{
 	min-height: 370px;
@@ -71,6 +44,22 @@ body{
 	width: 250px;
 	border-top: 3px solid #2E2A2A;
 }
+
+.biodata .row {
+	opacity: 0;
+	transform: translate(0, -40px);
+	transition: .5s;
+}
+
+.biodata .row.show {
+	opacity: 1;
+	transform: translate(0, 0);
+}
+
+
+
+
+
 
 .portfolio{
 	background-color: #eee;
@@ -82,24 +71,98 @@ body{
 	border-top: 3px solid #2E2A2A;
 }
 
+.portfolio .row {
+	opacity: 0;
+	transform: translate(0, -40px);
+	transition: .5s;
+}
+
+.portfolio .row.show {
+	opacity: 1;
+	transform: translate(0, 0);
+}
+
+
+
+
+
+
+.sidoarjotour{
+	min-height: 1900px;
+}
+
+.sidoarjotour hr{
+	width: 250px;
+	border-top: 3px solid #2E2A2A;
+}
+
+.sidoarjotour .row {
+	opacity: 0;
+	transform: translate(0, -40px);
+	transition: .5s;
+}
+
+.sidoarjotour .row.show {
+	opacity: 1;
+	transform: translate(0, 0);
+}
+
+
+
+
+.about{
+	background-color: #eee;
+}
+
 .about hr{
 	width: 250px;
 	border-top: 3px solid #2E2A2A;
 }
 
+.about .row {
+	opacity: 0;
+	transform: translate(0, -40px);
+	transition: .5s;
+}
+
+.about .row.show {
+	opacity: 1;
+	transform: translate(0, 0);
+}
+
+
+
 section{
 	min-height: 300px;
 }
 
+
+
+
 .contact{
 	min-height: 900px;
-	background-color: #eee;
 }
 
 .contact hr{
 	width: 250px;
 	border-top: 3px solid #2E2A2A;
 }
+
+.contact .row {
+	opacity: 0;
+	transform: translate(0, -40px);
+	transition: .5s;
+}
+
+.contact .row.show {
+	opacity: 1;
+	transform: translate(0, 0);
+}
+
+
+
+
+
 
 footer{
 	position: absolute;
