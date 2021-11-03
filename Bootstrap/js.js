@@ -121,20 +121,20 @@ $(window).scroll(function() {
 	
 	
 	
-	
-	
-	
-	
-	
-	
-	
 });
 
 
 
 
 
+$('.darkmode').on('click', function(){
 
+	
+	$('.body').toggleClass('darkmodeon');
+	
+	
+	
+});
 
 
 
